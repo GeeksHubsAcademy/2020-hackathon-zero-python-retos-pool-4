@@ -40,7 +40,7 @@ def error(update, context):
 def main():
     """Inicio del Bot"""
     #Colocamos el Token creado por FatherBot
-    updater = Updater("1004671708:AAFF4FUEEsb31K8Ie0dlg4oXOJPI25bX-4o", use_context=True)
+    updater = Updater("", use_context=True)
 
     # Es el Registro de Comandos a través del dispartcher
     dp = updater.dispatcher
