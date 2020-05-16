@@ -4,10 +4,15 @@ import random
 import string
 
 def RandomPasswordGenerator(passLen=10):
-    #
-    #
+    resultado = ""
+    letras = string.ascii_letters
+    digitos = string.digits
+    signosDePuntuacion = string.punctuation
     
-    #
-    #
+    n = 0
+    while n < passLen:
+        resultado += random.choice(letras)
 
-    return ""
+        n += 1
+
+    return resultado
